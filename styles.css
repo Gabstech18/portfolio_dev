@@ -346,12 +346,13 @@ img#about-img {
 /*---------------------------MY WORK ------------------------------------------*/
 
 .my-work {
-  background-color: var(--clear-color);
+  background-color: var(--text-color);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
+  margin-bottom: 20vh;
 }
 
 .section__title--work {
