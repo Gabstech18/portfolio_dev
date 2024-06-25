@@ -264,7 +264,7 @@ img#img_intro {
 
 .my-services {
   background: var(--dark-color);
-  color: var(--text-color);
+  color: var(--clear-color);
   text-align: center;
 }
 
@@ -408,19 +408,20 @@ img#about-img {
 /*--------------------------NEW SECTION ------------------*/
 .container {
   position: relative;
-  top: 50%;
+  top: 30vh;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 1000px;
   height: 600px;
   background: #f5f5f5;
   box-shadow: 0 30px 50px #dbdbdb;
+  margin-bottom: 20vh;
 }
 
 .container .slide .item {
   width: 200px;
   height: 300px;
-  position: relative;
+  position: absolute;
   top: 50%;
   transform: translate(0, -50%);
   border-radius: 20px;
@@ -459,7 +460,7 @@ img#about-img {
 }
 
 .item .content {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 100px;
   width: 300px;
@@ -524,7 +525,7 @@ img#about-img {
 .button {
   width: 100%;
   text-align: center;
-  position: relative;
+  position: absolute;
   bottom: 20px;
 }
 
@@ -553,6 +554,7 @@ img#about-img {
 /*----------------------FOOTER-------------------------*/
 
 .footer {
+  top: 50vh;
   background: var(--dark-color);
   color: var(--accent-color);
   text-align: center;
