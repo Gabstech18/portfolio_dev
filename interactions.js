@@ -1,3 +1,4 @@
+//Section of hamburger
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav__link');
 
@@ -11,6 +12,10 @@ navLinks.forEach(link => {
     })
 });
 
+
+
+
+//section for the new section
 let next = document.querySelector('.next')
 let prev = document.querySelector('.prev')
 
